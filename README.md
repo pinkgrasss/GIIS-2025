@@ -6,8 +6,8 @@
 
 |№ лабораторной|максимальное количетсов баллов за нее|
 |---|---|
-|1|2|
-|2|$${\color{lightblue}4}$$|
+|1|1|
+|2|$${\color{red}3}$$|
 |3|$${\color{lightgreen}5}$$|
 |4|$${\color{lightgreen}5}$$|
 |5|$${\color{lightgreen}5}$$|
@@ -23,7 +23,7 @@
 |2|Волкогон Никита|[ii23_01_02](./trunk/ii23_01_02)|$${\color{lightgreen}5}$$|$${\color{lightgreen}5}$$|||||
 |3|Вышинский Артём|[ii23_01_03](./trunk/ii23_01_03)|$${\color{lightgreen}5}$$|$${\color{lightgreen}5}$$|||||
 |4|Гавришук Владислав|[ii23_01_04](./trunk/ii23_1_4)|$${\color{lightgreen}5}$$|$${\color{lightgreen}5}$$|||||
-|5|Глухарев Даниил|[ii23_01_05](./trunk/ii23_1_5)|$${\color{lightgreen}5}$$||||||
+|5|Глухарев Даниил|[ii23_01_05](./trunk/ii23_1_5)|$${\color{lightgreen}5}$$|$${\color{lightblue}4}$$|||||
 |6|Кононов Алексей||||||||
 |7|Копач Александр|[ii23_1_7](./trunk/ii23_1_7)|$${\color{lightblue}4}$$|$${\color{lightgreen}5}$$|||||
 |8|Лапин Владимир|[ii23_01_08](./trunk/ii23_01_08)|$${\color{lightgreen}5}$$|$${\color{lightgreen}5}$$|$${\color{lightgreen}5}$$||||
