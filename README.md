@@ -8,7 +8,7 @@
 |---|---|
 |1|0|
 |2|2|
-|3|$${\color{lightgreen}5}$$|
+|3|$${\color{lightblue}4}$$|
 |4|$${\color{lightgreen}5}$$|
 |5|$${\color{lightgreen}5}$$|
 |6|$${\color{lightgreen}5}$$|
@@ -33,7 +33,7 @@
 | №  | ФИО                            | Directory name               |#1  | #2 | #3  | #4 | #5 | #6 |
 |----|--------------------------------|------------------------------|----|-----|----|-----|----|----|
 |1|Ежевский Егор|[ii23_01_08](./trunk/ii23_2_1)|$${\color{lightgreen}5}$$||||||
-|2|Макаревич Кирилл|[ii23_2_2](./trunk/ii23_2_2)|$${\color{red}3}$$||$${\color{red}3}$$|||||
+|2|Макаревич Кирилл|[ii23_2_2](./trunk/ii23_2_2)|$${\color{red}3}$$|$${\color{red}3}$$||||||
 |3|Макаревич Никита|[ii23_2_3](./trunk/ii23_2_3)|$${\color{lightgreen}5}$$|$${\color{lightgreen}5}$$|||||
 |4|Маслакова Ксения|[ii23_2_4](./trunk/ii23_2_4)|$${\color{lightblue}4}$$|$${\color{lightgreen}5}$$|||||
 |5|Медведь Павел|[ii23_2_5](./trunk/ii23_2_5)|$${\color{lightgreen}5}$$|$${\color{lightblue}4}$$|$${\color{lightgreen}5}$$||||
