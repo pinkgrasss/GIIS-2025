@@ -576,5 +576,6 @@ class Game:
             self.clock.tick(self.snake.speed)
 
 if __name__ == '__main__':
+    random.seed(42)
     game = Game()
     game.run() 
