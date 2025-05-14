@@ -11,6 +11,8 @@ app.secret_key = os.getenv('SECRET_KEY')
 app.config['SESSION_PERMANENT'] = True
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(minutes=30)
 
+CACHE_CONTROL_HEADER = 'no-store, max-age=0'
+
 # Фиксированные данные поездов
 trains = [
     {
@@ -42,7 +44,7 @@ def calculate_trip_duration(departure_time, arrival_time):
 def index():
     session.clear()
     response = make_response(render_template('index.html'))
-    response.headers['Cache-Control'] = 'no-store, max-age=0'
+    response.headers['Cache-Control'] = CACHE_CONTROL_HEADER
     return response
 
 
@@ -78,7 +80,7 @@ def search_results():
         travel_date=session['date'],
         calculate_trip_duration=calculate_trip_duration
     ))
-    response.headers['Cache-Control'] = 'no-store, max-age=0'
+    response.headers['Cache-Control'] = CACHE_CONTROL_HEADER
     return response
 
 
@@ -106,7 +108,7 @@ def train_details(train_id):
         calculate_trip_duration=calculate_trip_duration,
         seats=train['seats']  # Добавляем информацию о местах
     ))
-    response.headers['Cache-Control'] = 'no-store, max-age=0'
+    response.headers['Cache-Control'] = CACHE_CONTROL_HEADER
     return response
 
 
@@ -171,7 +173,7 @@ def cancel(ticket_id):
 @app.route('/profile')
 def profile():
     response = make_response(render_template('profile.html', tickets=tickets))
-    response.headers['Cache-Control'] = 'no-store, max-age=0'
+    response.headers['Cache-Control'] = CACHE_CONTROL_HEADER
     return response
 
 

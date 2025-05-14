@@ -417,7 +417,6 @@
             display: block;
             margin-bottom: 0.6rem;
             transition: all 0.3s ease;
-            padding-left: 0;
             border-left: 2px solid transparent;
             padding: 0.2rem 0 0.2rem 1rem;
         }
@@ -608,12 +607,7 @@
                             <div class="seat-selection-content">
                                 <input type="hidden" name="carriage_type" value="{{ carriage_type }}" required>
                                 <div class="seat-numbers">
-                                    {% for seat in free_seats %}
-                                    <div class="seat-number"
-                                         onclick="selectSeat(this, '{{ carriage_type }}', {{ seat.number }})">
-                                        {{ seat.number }}
-                                    </div>
-                                    {% endfor %}
+                                    {% for seat in free_seats %}<button type="button" class="seat-number" onclick="selectSeat(this, '{{ carriage_type }}', {{ seat.number }})">{{ seat.number }}</button>{% endfor %}
                                 </div>
                                 <input type="hidden" name="seat_number" id="seat_number_{{ carriage_type }}">
                             </div>
